@@ -110,7 +110,7 @@ aside .window {
 
 
 .window li a, #list-tags a, main a {
-    font-size: 15px;
+    font-size: 20px;
     text-decoration: none;
     color: green;
 
@@ -119,10 +119,21 @@ aside .window {
 ul li {
     list-style: none;
 }
+
+#pages li, #archives li, #meta li {
+    padding: 5px 10px;
+}
+
+#pages li a, #archives li a, #meta li a {
+    display: block;
+    line-height: 30px;
+    height: 30px;
+
+}
+
 h2 {
     text-align: center;
     padding: 10px 0;
-
 }
 
 h2 a {
@@ -135,8 +146,11 @@ h2 a {
 .main-container p {
     padding-left: 30px;
     font-size: 18px 10px;
+}
 
-
+h5 {
+    font-weight: normal;
+    font-size: 20px;
 }
 
 
@@ -170,8 +184,8 @@ a:hover, a:hover {
 
 aside li a:hover, .colon li a:hover {
     border: 1px solid lightgrey;
-    padding: 5px;
-    ba
+    text-decoration: underline;
+
 }
 
 .colon {
