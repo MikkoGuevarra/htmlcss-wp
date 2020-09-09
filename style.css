@@ -109,11 +109,15 @@ aside .window {
 }
 
 
-.window li a, #list-tags a, .content p a {
-    font-size: 20px;
+.window li a, .list-tags a, .content p a {
+    font-size: 18px;
     text-decoration: none;
     color: green;
 
+}
+
+.bigger {
+    font-size: 20px;
 }
 
 ul li {
@@ -228,7 +232,7 @@ line-height: 50px;
     background-color: #504741;
     color: white;
 }
-.bigger{
+.list-tags a.bigger{
     font-size: 30px;
 }
 .colon {
