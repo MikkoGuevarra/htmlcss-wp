@@ -268,7 +268,6 @@ line-height: 50px;
  .copyright {
      background-color: white;
      /padding: 30px 30px; */
-
  }
 
  .foot-container {
@@ -276,17 +275,23 @@ line-height: 50px;
 
  }
 
- .leftpart {
+ .leftpart, .rightpart {
+     padding: 30px;
+     margin: auto;
      float: left;
      width: 50%;
      height: 100px;
-     background-color: red;
-
+     background-color: white;
  }
- .rightpart {
-     float: left;
-     width: 50%;
-     height: 100px;
-     background-color: yellow;
 
+ .rightpart i {
+     margin-right: 20px;
+     background-color: lightgrey;
+     border-radius: 50%;
+     padding: 5px;
+ }
+
+ .rightpart i:hover {
+     background-color: white;
+     border: 1px solid lightgrey;
  }
