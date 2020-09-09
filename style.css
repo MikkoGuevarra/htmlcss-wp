@@ -1,0 +1,230 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image:url(https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-pattern.png);
+}
+
+#wrapper {
+    width: 1200px;
+    margin: auto;
+}
+
+header {
+    margin-top: 10px;
+    text-align: center;
+    background-image: url(https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-header.jpg);
+    padding: 50px 0;
+    border: 10px solid white;
+
+}
+
+nav {
+    height: 50px;
+    background-color: #504741;
+    margin-bottom: 20px;
+}
+
+.sub-menu::after {
+    content: '⮟';
+    margin-left: 5px;
+}
+
+aside {
+    float: left;
+    width: 20%;
+}
+
+main {
+
+    background-color: white;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: calc(60% - 20px);
+}
+
+.container::after, .foot-container::after, .copyright::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+footer {
+
+    background-color: white;
+    margin-top: 10px;
+}
+
+h1, h2 {
+    text-transform: uppercase;
+    color: white;
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+
+header h2 {
+    font-size: 30px;
+}
+
+
+nav ul li{
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+nav ul {
+
+    text-align: center;
+}
+
+nav a {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+
+}
+
+nav li {
+    height: 50px;
+    line-height: 50px;
+    padding: 0 20px;
+}
+nav li:hover {
+    background-color: #2e1f21;
+}
+
+aside .window {
+    margin-bottom: 20px;
+    padding: 20px;
+    font-size: 30px;
+    background-color: white;
+}
+
+
+.window li a, #list-tags a, main a {
+font-size: 15px;
+text-decoration: none;
+color: green;
+
+}
+
+ul li {
+    list-style: none;
+}
+h2 {
+    text-align: center;
+    padding: 10px 0;
+
+}
+
+h2 a {
+    font-size: 40px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: darkgrey;
+}
+
+.main-container p {
+    padding-left: 30px;
+    font-size: 18px 10px;
+
+
+}
+
+
+div img {
+    max-width: 100%;
+}
+
+.inside-img {
+    margin-bottom: 10px;
+    margin-top: 30px;
+
+}
+.description {
+    letter-spacing: 1px;
+}
+
+.description, .category-tags {
+    padding: 30px 100px;;
+    margin: auto;
+
+}
+
+.content {
+    margin: auto;
+    border-bottom: 2px solid gray;
+}
+
+li a:hover, a:hover {
+    text-decoration: underline;
+}
+
+aside li a:hover, .colon li a:hover {
+    border: 1px solid lightgrey;
+    padding: 5px;
+    ba
+}
+
+.colon {
+    width: 20%;
+    float: left;
+    padding: 20px;
+    font-size: 15px;
+    color: lightgrey;
+}
+ #widgets {
+     width: 40%;
+ }
+
+
+ .colon h5 {
+     font-size: 20px;
+     color: black;
+ }
+
+ .colon ul li a {
+     text-decoration: none;
+     color: lightgrey;
+ }
+
+ .colon ul li {
+     padding: 10px;
+ }
+
+ .colon p {
+     margin-top: 5px;
+ }
+
+ .copyright {
+     background-color: white;
+     /padding: 30px 30px; */
+
+ }
+
+ .foot-container {
+     border-bottom: 2px solid lightgrey;
+
+ }
+
+ .leftpart {
+     float: left;
+     width: 50%;
+     height: 100px;
+     background-color: red;
+
+ }
+ .rightpart {
+     float: left;
+     width: 50%;
+     height: 100px;
+     background-color: yellow;
+
+ }
