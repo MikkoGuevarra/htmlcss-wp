@@ -155,7 +155,7 @@ header h2 {
 
 
 .main-container p {
-    padding-left: 30px;
+    padding-left: 50px;
     font-size: 18px;
 }
 
@@ -175,11 +175,11 @@ div img {
 
 }
 .description {
-    letter-spacing: 1px;
+    letter-spacing: 2px;
 }
 
 .description, .category-tags {
-    padding: 30px 100px;;
+    padding: 30px 50px;
     margin: auto;
 
 }
@@ -276,6 +276,7 @@ line-height: 50px;
 
  .foot-container {
      border-bottom: 2px solid lightgrey;
+     letter-spacing: 2px;
 
  }
 
