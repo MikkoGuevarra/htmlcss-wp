@@ -33,6 +33,7 @@ nav {
     margin-left: 5px;
 }
 
+
 aside {
     float: left;
     width: 20%;
@@ -80,24 +81,24 @@ nav ul li{
 }
 
 nav ul {
-
     text-align: center;
 }
+
 
 nav a {
     font-size: 20px;
     text-decoration: none;
     color: white;
-
-}
-
-nav li {
     height: 50px;
     line-height: 50px;
     padding: 0 20px;
+
 }
+
+
 nav li:hover {
     background-color: #2e1f21;
+    text-decoration: none;
 }
 
 aside .window {
@@ -109,9 +110,9 @@ aside .window {
 
 
 .window li a, #list-tags a, main a {
-font-size: 15px;
-text-decoration: none;
-color: green;
+    font-size: 15px;
+    text-decoration: none;
+    color: green;
 
 }
 
@@ -163,8 +164,8 @@ div img {
     border-bottom: 2px solid gray;
 }
 
-li a:hover, a:hover {
-    text-decoration: underline;
+a:hover, a:hover {
+    /* text-decoration: underline; */
 }
 
 aside li a:hover, .colon li a:hover {
