@@ -197,7 +197,8 @@ div img {
 
 .content {
     margin: auto;
-    border-bottom: 2px solid gray;
+    border-bottom: 2px solid rgba(0, 0, 0, .08);
+    padding-bottom: 30px;
 }
 
 
