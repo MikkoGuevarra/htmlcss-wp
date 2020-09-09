@@ -96,7 +96,7 @@ nav a {
 }
 
 
-nav li:hover {
+nav li:hover, #search-bar button:hover {
     background-color: #2e1f21;
     text-decoration: none;
 }
@@ -208,6 +208,29 @@ aside li a:hover, .colon li a:hover {
     box-shadow: inset 0px 3px 0px rgba(0, 0, 0, .08);
 
 }
+
+#search-bar {
+line-height: 50px;
+}
+
+#search-bar input, #search-bar button {
+    font-size: 18px;
+    padding: 10px;
+    margin: auto;
+}
+
+#search-bar input {
+    width: 70%;
+}
+#search-bar button {
+    background-color: #504741;
+    color: white;
+
+}
+
+
+
+
 
 .colon {
     width: 20%;
