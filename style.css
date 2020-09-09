@@ -206,7 +206,7 @@ div img {
 }
 
 
-aside li a:hover, .colon li a:hover {
+aside li a:hover, .colon li:hover {
     border: 1px solid lightgrey;
     text-decoration: underline;
     box-shadow: inset 0px 3px 0px rgba(0, 0, 0, .08);
@@ -255,12 +255,12 @@ line-height: 50px;
  .colon ul li a {
      text-decoration: none;
      color: lightgrey;
-     padding: 10px 8px;
+     padding: 10px 0;
      height: 50px;
  }
 
  .colon ul li {
-     padding: 20px;
+     padding: 10px;
      display: block;
  }
 
