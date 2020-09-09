@@ -109,7 +109,7 @@ aside .window {
 }
 
 
-.window li a, #list-tags a, main a {
+.window li a, #list-tags a, .content p a {
     font-size: 20px;
     text-decoration: none;
     color: green;
@@ -131,21 +131,28 @@ ul li {
 
 }
 
-h2 {
+header h2 {
     text-align: center;
     padding: 10px 0;
 }
 
-h2 a {
+.content h2 {
+    margin: 40px;
+}
+
+.content h2 a{
     font-size: 40px;
     text-transform: uppercase;
     text-decoration: none;
     color: darkgrey;
+    text-shadow: 3px 3px 0px rgba(0, 0, 0, .1);
+    color: #504741;
 }
+
 
 .main-container p {
     padding-left: 30px;
-    font-size: 18px 10px;
+    font-size: 18px;
 }
 
 h5 {
@@ -173,14 +180,26 @@ div img {
 
 }
 
+.category-tags {
+    font-size: 15px;
+    margin-left: auto;
+    text-align: center;
+    padding: 2px;
+    width: 80%;
+    background: #f9f9f9;
+}
+
+.category-tags a {
+    text-decoration: none;
+    color: green;
+    font-size: 15px;
+}
+
 .content {
     margin: auto;
     border-bottom: 2px solid gray;
 }
 
-a:hover, a:hover {
-    /* text-decoration: underline; */
-}
 
 aside li a:hover, .colon li a:hover {
     border: 1px solid lightgrey;
