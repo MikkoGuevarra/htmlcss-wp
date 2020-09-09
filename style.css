@@ -209,6 +209,8 @@ aside li a:hover, .colon li a:hover {
 
 }
 
+
+
 #search-bar {
 line-height: 50px;
 }
@@ -225,13 +227,10 @@ line-height: 50px;
 #search-bar button {
     background-color: #504741;
     color: white;
-
 }
-
-
-
-
-
+.bigger{
+    font-size: 30px;
+}
 .colon {
     width: 20%;
     float: left;
@@ -252,11 +251,15 @@ line-height: 50px;
  .colon ul li a {
      text-decoration: none;
      color: lightgrey;
+     padding: 10px 8px;
+     height: 50px;
  }
 
  .colon ul li {
-     padding: 10px;
+     padding: 20px;
+     display: block;
  }
+
 
  .colon p {
      margin-top: 5px;
