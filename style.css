@@ -210,7 +210,6 @@ aside li a:hover, .colon li:hover {
     border: 1px solid lightgrey;
     text-decoration: underline;
     box-shadow: inset 0px 3px 0px rgba(0, 0, 0, .08);
-
 }
 
 
@@ -271,7 +270,6 @@ line-height: 50px;
 
  .copyright {
      background-color: white;
-     /padding: 30px 30px; */
  }
 
  .foot-container {
